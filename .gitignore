@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+dist/
+dist-app/
+dist-electron/
+out/
+release/
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+playwright-report/
+test-results/
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+.eslintcache
+.cache/
+.temp/
+.tmp/
+
+# Electron
+electron-builder.yml
+!electron-builder.*.yml
+
+# Database
+*.db
+*.sqlite
+
+# Neo4j
+neo4j/
+
+# Docker
+.env.docker.local
+docker-compose.override.yml
+
+# Test files
+test-entity-highlight.html
+test-entity-highlight.js
+test-journals/
+
+# Python cache in subdirectories
+**/__pycache__/
